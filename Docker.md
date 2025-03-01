@@ -60,10 +60,7 @@ dsds
 - Data survives even if container stops
 - Shared storage between containers
 
-##### Network
-- How containers communicate
-- Can connect multiple containers
-- Isolate container groups
+##### [[Network]]
 
 ##### Layer
 - Images are built in layers
