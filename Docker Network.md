@@ -1,7 +1,4 @@
-- How containers communicate
-- Can connect multiple containers
-- Isolate container groups
-- Each container connected to a private virtual network "bridge"
+- Each container connected to a private virtual network "[[Bridge]]"
 - Each virtual network routes through NAT firewall on host IP
 - All containers on a virtual network can talk to each other without -p
 - Best practice is to create a new virtual network for each app

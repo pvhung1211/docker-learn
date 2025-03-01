@@ -23,6 +23,10 @@ dsds
 - Great for development and testing
 - Perfect for microservices architecture
 
+### [[Docker daemon]]
+
+### [[Image vs Container]]
+
 ### Key concepts
 ##### Container
 - Lightweight, standalone package
@@ -60,32 +64,10 @@ dsds
 - Data survives even if container stops
 - Shared storage between containers
 
-##### [[Network]]
+##### [[Docker Network]]
 
 ##### Layer
 - Images are built in layers
 - Each instruction creates a layer
 - Layers can be cached and reused
 
-
-### [[Docker daemon]]
-
-### Image vs Container
-
-##### Image
-- Like a recipe or blueprint
-- Read-only template
-- Can create many containers from one image
-- Think of it as a "Class" in programming
-- Stored in registries (like Docker Hub)
-
-##### Docker Container
-- Running instance of an image
-- Like a dish made from a recipe
-- Active, running application
-- Think of it as an "Object" in programming
-- Can be started, stopped, deleted
-
-##### Analogy:
-- Image = Cake Recipe
-- Container = Actual Cake you baked
