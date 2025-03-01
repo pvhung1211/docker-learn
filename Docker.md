@@ -3,7 +3,7 @@ Docker is like a shipping container, but for software. Here's what it does:
 ### Packaging:
 
 dsds
-- It lets you package your application and everything it needs (code, libraries, dependencies) into one standardized unit called a "[[Container]]"
+- It lets you package your application and everything it needs (code, libraries, dependencies) into one standardized unit called a "[[Container hehe]]"
 - Think of it like a complete box with everything your app needs to run
 
 ### Portability:
