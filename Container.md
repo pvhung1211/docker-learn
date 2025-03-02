@@ -25,10 +25,10 @@ docker container logs <nice_wright>
 # display running process of a container
 docker container top <nic_wright>
 
-# display details of one container config
+# performance stats for all containers
 docker container stats <nic_wright>
 
-# performance stats for all containers
+# display details of one container config
 docker container inspect <nic_wright>
 
 # start new container interactively
