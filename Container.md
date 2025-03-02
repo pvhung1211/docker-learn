@@ -45,11 +45,11 @@ docker container rm 46d -f #force
 
 
 ### -it
-- -i: Attach container's STDIN [[Interactive Flag]]
+- -i: The `-i` (interactive) flag in Docker is used to keep **STDIN** open even if not attached to the container. It's often used together with `-t` as `-it` for interactive processes like a shell.
 - -t: Allocate a [[Pseudo-tty]]
 ### -ai
-- -a: Attach STDOUT/STDERR and forward signals
-- -i: Attach container's STDIN
+- -a: Attach **STDOUT/STDERR** and forward signals
+- -i: Attach container's **STDIN**
 
 ### What happens in  "docker container run"
 - Looks for that image locally in image cache, doesn't find anything

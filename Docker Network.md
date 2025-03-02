@@ -1,4 +1,6 @@
 
+#### Prerequisite [[Networking Fundamentals]]
+
 #### Commands
 ```bash
 # Show networks
@@ -8,10 +10,10 @@ docker network ls
 docker network inspect
 
 # Create a new network (with opt network driver)
-docker network create --driver
+docker network create --driver <my_app_net>
 
 # Attach a network to container
-docker network connect
+docker network connect <my_app_net> <my_container>
 
 # Detach a network from container
 docker network disconnect
@@ -30,6 +32,12 @@ docker network disconnect
 - Attach containers to more than one virtual network (or none) 
 - Skip virtual networks and use host IP (--net=host)
 - Use different Docker network drivers to gain new abilities
+
+#### Default Security
+- Create ur apps so FE/BE sit on same Docker network
+- Their inter-communication never leaves host
+- All externally exposed ports closed by default
+- You must manually expose via -p
 
 
 [[Network interface]]
