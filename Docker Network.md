@@ -1,5 +1,8 @@
 
 #### Prerequisite [[Networking Fundamentals]]
+
+#### Default port **80 (HTTP)** or **443 (HTTPS)** (if not specify, it will reach these port when making HTTP requests)
+
 #### [[Network interface]]
 
 ##### [[DNS]]
@@ -24,7 +27,7 @@ docker network connect <my_app_net> <my_container>
 docker network disconnect
 
 # Run a container on the specified network
-docker run --net my_network nginx
+docker run --network my_network nginx
 
 # Give the container an alias so that others in the same network can connect to it via this alias
 docker run -d --name my_container --network my_network --network-alias my_alias nginx

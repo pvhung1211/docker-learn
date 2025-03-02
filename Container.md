@@ -40,6 +40,9 @@ docker container exec -it
 # start a stopped container in detach + iteractive mode
 docker container start -ai 
 
+# Restart a container
+docker container restart
+
 # remove n container
 docker container rm 46d c4 51 
 docker container rm 46d -f #force
