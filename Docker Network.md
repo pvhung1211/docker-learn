@@ -1,4 +1,22 @@
 
+#### Commands
+```bash
+# Show networks
+docker network ls
+
+# Inspect a network
+docker network inspect
+
+# Create a new network (with opt network driver)
+docker network create --driver
+
+# Attach a network to container
+docker network connect
+
+# Detach a network from container
+docker network disconnect
+```
+
 #### Defaults
 - Each container connected to a private virtual network "[[Bridge]]"
 - Each virtual network routes through [[NAT]] [[Firewall]] on host IP
@@ -12,3 +30,6 @@
 - Attach containers to more than one virtual network (or none) 
 - Skip virtual networks and use host IP (--net=host)
 - Use different Docker network drivers to gain new abilities
+
+
+[[Network interface]]

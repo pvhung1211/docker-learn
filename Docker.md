@@ -23,7 +23,7 @@ dsds
 - Great for development and testing
 - Perfect for microservices architecture
 
-### [[Docker daemon]]
+### [[Docker Daemon]]
 
 ### [[Image vs Container]]
 

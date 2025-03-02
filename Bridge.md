@@ -3,7 +3,7 @@ A "bridge network" in Docker is ==a virtual network created by a software bridg
 - **Isolation:**
     Containers on different bridge networks cannot directly communicate with each other. 
 - **Single host limitation:**
-    Bridge networks are only suitable for containers running on the same [[Docker host]]. 
+    Bridge networks are only suitable for containers running on the same [[Docker Host]]. 
 - **Default network:**
     When you start a Docker container without specifying a network, it automatically joins the default "bridge" network. 
 - **User-defined bridges:**

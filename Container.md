@@ -45,8 +45,8 @@ docker container rm 46d -f #force
 
 
 ### -it
-- -i: Attach container's STDIN [[interactive]]
-- -t: Allocate a [[pseudo-tty]]
+- -i: Attach container's STDIN [[Interactive Flag]]
+- -t: Allocate a [[Pseudo-tty]]
 ### -ai
 - -a: Attach STDOUT/STDERR and forward signals
 - -i: Attach container's STDIN
