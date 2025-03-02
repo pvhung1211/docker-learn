@@ -1,7 +1,7 @@
 
 #### Prerequisite [[Networking Fundamentals]]
 
-#### Default port **80 (HTTP)** or **443 (HTTPS)** (if not specify, it will reach these port when making HTTP requests)
+#### Default port **80 (HTTP)** or **443 (HTTPS)** (if the port not be specified, it will reach these port when making HTTP requests)
 
 #### [[Network interface]]
 

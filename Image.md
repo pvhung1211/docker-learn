@@ -1,0 +1,3 @@
+- App binaries and dependencies
+- Metadata about the image data and how to run the image
+- Not a complete OS, no kernel, kernel module (e.g drivers)
