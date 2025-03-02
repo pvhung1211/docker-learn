@@ -26,29 +26,35 @@ blog.example.com → example.medium.com
 
  alias => domain => ip address
 
-## **Step-by-Step DNS Resolution Process**
+## Step-by-Step DNS Resolution Process
 
 1. **User Requests a Website**
 
-    - You type `example.com` into your browser.
+	- You type `example.com` into your browser.
+
 2. **Check Local Cache**
-    
-    - Your computer first checks its local DNS cache to see if it already knows the IP address for `example.com`. If found, it skips the next steps.
+
+	- Your computer first checks its local DNS cache to see if it already knows the IP address for `example.com`. If found, it skips the next steps.
+
 3. **Ask the Configured DNS Server**
-    
+
     - If the IP isn’t cached, your device sends a request to the configured DNS server (e.g., `8.8.8.8` from Google Public DNS).
+
 4. **Recursive Query (DNS Server Looks Up the IP)**
-    
+
     - If the DNS server (e.g., `8.8.8.8`) doesn’t already know the IP, it asks other DNS servers in a process like this:
         - **Root DNS Server** → Knows `.com` DNS servers
         - **.com TLD DNS Server** → Knows `example.com`'s authoritative DNS
         - **Authoritative DNS Server for example.com** → Returns the actual IP address
+
 5. **Return the IP Address**
-    
+
     - The DNS server (e.g., `8.8.8.8`) gets the IP address (e.g., `192.168.1.1`) from the authoritative server and sends it back to your device.
+
 6. **Connect to the Website**
-    
+
     - Your browser now uses the IP (`192.168.1.1`) to establish a connection with the web server and load the website.
+
 7. **Cache the Result**
-    
+
     - Your computer temporarily stores the IP address in its DNS cache to speed up future visits.
