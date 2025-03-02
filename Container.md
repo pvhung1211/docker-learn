@@ -34,8 +34,11 @@ docker container inspect <nic_wright>
 # start new container interactively
 docker container run -it
 
-# run additional command in existing container
+# run additional command in existing/running container
 docker container exec -it
+
+# start a stopped container in detach + iteractive mode
+docker container start -ai 
 
 # remove n container
 docker container rm 46d c4 51 
@@ -43,6 +46,12 @@ docker container rm 46d -f #force
 
 ```
 
+
+#### -d -it : 
+- The container will be detached, we can **won't see the interactive shell immediately**, but the opened terminal process (via `-it`) keeps the container running
+
+#### -d
+- runs a container in the background (if you wish to interact with the container immediately after its creation, don't use detach)
 
 ### -it
 - -i: The `-i` (interactive) flag in Docker is used to keep **STDIN** open even if not attached to the container. It's often used together with `-t` as `-it` for interactive processes like a shell.
