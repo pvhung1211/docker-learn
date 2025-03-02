@@ -1,5 +1,10 @@
 
 #### Prerequisite [[Networking Fundamentals]]
+#### [[Network interface]]
+
+##### [[DNS]]
+
+##### [[Docker DNS]]
 
 #### Commands
 ```bash
@@ -37,7 +42,5 @@ docker network disconnect
 - Create ur apps so FE/BE sit on same Docker network
 - Their inter-communication never leaves host
 - All externally exposed ports closed by default
-- You must manually expose via -p
-
-
-[[Network interface]]
+- You must manually expose via -p, which is better default securiry
+- This gets even better later with Swarm and Overlay networks

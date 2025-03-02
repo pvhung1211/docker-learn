@@ -23,10 +23,6 @@ dsds
 - Great for development and testing
 - Perfect for microservices architecture
 
-### [[Docker Daemon]]
-
-### [[Image vs Container]]
-
 ### Key concepts
 ##### Container
 - Lightweight, standalone package
@@ -64,6 +60,8 @@ dsds
 - Data survives even if container stops
 - Shared storage between containers
 
+##### [[Image vs Container]]
+##### [[Docker Daemon]]
 ##### [[Docker Network]]
 
 ##### Layer

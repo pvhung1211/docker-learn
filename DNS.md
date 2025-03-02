@@ -1,0 +1,2 @@
+
+DNS (Domain Name System) is like the **phonebook of the internet**. It translates **human-readable domain names** (like `google.com`) into **IP addresses** (like `142.250.190.14`) so computers can understand and connect to websites.
