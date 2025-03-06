@@ -24,7 +24,6 @@ myrepo/nginx      v1       5a3221f0137b
 
 
 
-
 # uploads changed layers to a image registry
 docker image push <changed-image>
 
