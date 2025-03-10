@@ -32,7 +32,7 @@ Docker is like a shipping container, but for software. Here's what it does:
 - Used to create containers
 - Can be shared/downloaded from Docker Hub
 
-##### Dockerfile
+##### [[Dockerfile]]
 - Text file with instructions
 - Recipe to build an image
 - Contains commands like FROM, COPY, RUN

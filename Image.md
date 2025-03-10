@@ -1,6 +1,6 @@
 
 ```bash
-# retrieves detailed information about a Docker image in JSON format
+	# retrieves detailed information about a Docker image in JSON format
 docker image inspect nginx:latest
 
 # listing the layers that make up the image and their metadata
